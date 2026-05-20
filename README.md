@@ -22,40 +22,18 @@ Every notebook here represents a real session where I picked a concept, got my h
 
 ---
 
-## 📂 Repository Structure
+## 📂 What's Inside
 
-```
-100-days-of-ml/
-│
-├── 📊 eda/
-│   ├── EDA.ipynb                              # Full EDA on Housing dataset
-│   ├── univariant_analysis_EDA.ipynb          # Distributions, histograms, box plots
-│   └── Bivarient_analysis.ipynb               # Correlation, scatter plots, heatmaps
-│
-├── ⚙️ preprocessing/
-│   ├── Feature_scaling_standardization .ipynb # StandardScaler on Social Network Ads
-│   └── Normalization_engineering.ipynb        # MinMaxScaler on Wine dataset
-│
-├── 🌐 data-collection/
-│   └── (coming soon)
-│
-├── 🗄️ data-handling/
-│   └── (coming soon)
-│
-└── 📋 README.md
-```
+Notebooks are organized by topic. Each folder covers one area of data science — just browse the folder that interests you and open any notebook directly on GitHub to see the code and outputs.
 
----
+| Folder | What You'll Find |
+|--------|-----------------|
+| 📊 `eda/` | Univariate analysis, bivariate analysis, full EDA on real datasets |
+| ⚙️ `preprocessing/` | Feature scaling, normalization, encoding techniques |
+| 🌐 `data-collection/` | Fetching data from APIs, web scraping pipelines |
+| 🗄️ `data-handling/` | Working with CSV, JSON, SQL in Python |
 
-## 🗂️ Notebooks at a Glance
-
-| # | Notebook | Concept | Dataset | Key Skills |
-|---|----------|---------|---------|------------|
-| 01 | `EDA.ipynb` | Full exploratory data analysis | Housing | Pandas, Seaborn, Matplotlib |
-| 02 | `univariant_analysis_EDA.ipynb` | Statistical analysis of single variables | Train | Histograms, KDE, Box plots |
-| 03 | `Bivarient_analysis.ipynb` | Relationships between two variables | Tips | Correlation, Scatter plots |
-| 04 | `Feature_scaling_standardization .ipynb` | Standardization | Social Network Ads | StandardScaler, Sklearn |
-| 05 | `Normalization_engineering.ipynb` | Normalization | Wine Dataset | MinMaxScaler |
+> New notebooks are added regularly as I progress through the challenge.
 
 ---
 
@@ -70,8 +48,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-# Machine Learning
-from sklearn.preprocessing import StandardScaler, MinMaxScaler
+# Machine Learning & Preprocessing
+from sklearn.preprocessing import StandardScaler, MinMaxScaler, LabelEncoder
+from sklearn.model_selection import train_test_split
 
 # Data Collection
 import requests
@@ -82,29 +61,25 @@ from bs4 import BeautifulSoup
 
 ## 🚀 How to Run These Notebooks
 
-### 1. Clone the repository
 ```bash
+# 1. Clone the repo
 git clone https://github.com/rimsha-deve/100-days-of-ml.git
 cd 100-days-of-ml
-```
 
-### 2. Install dependencies
-```bash
+# 2. Install dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn requests beautifulsoup4
-```
 
-### 3. Launch Jupyter
-```bash
+# 3. Launch Jupyter
 jupyter notebook
 ```
 
-### 4. Navigate to any folder and open a notebook ✅
+Then open any folder and start exploring! ✅
 
 ---
 
 ## 🔗 Connect With Me
 
-If you're also doing #100DaysOfML, let's connect and hold each other accountable!
+If you're also doing #100DaysOfML, let's connect!
 
 [![GitHub](https://img.shields.io/badge/GitHub-rimsha--deve-black?style=flat-square&logo=github)](https://github.com/rimsha-deve)
 
@@ -112,7 +87,7 @@ If you're also doing #100DaysOfML, let's connect and hold each other accountable
 
 ## ⭐ If This Helped You
 
-Give this repo a star — it helps other learners find it and keeps me motivated to keep pushing notebooks every day!
+Give this repo a star — it helps other learners find it and keeps me motivated!
 
 ---
 
