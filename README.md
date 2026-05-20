@@ -2,7 +2,7 @@
 
 > *"The best way to learn data science is to do data science — every single day."*
 
-[![Days Completed](https://img.shields.io/badge/Days%20Completed-30%2B-blueviolet?style=for-the-badge)](.)
+[![Days Completed](https://img.shields.io/badge/Days%20Completed-5%2B-blueviolet?style=for-the-badge)](.)
 [![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python)](.)
 [![Tools](https://img.shields.io/badge/Tools-Pandas%20%7C%20NumPy%20%7C%20Seaborn%20%7C%20Sklearn-blue?style=for-the-badge)](.)
 [![Status](https://img.shields.io/badge/Status-Active%20%F0%9F%94%A5-brightgreen?style=for-the-badge)](.)
@@ -28,25 +28,19 @@ Every notebook here represents a real session where I picked a concept, got my h
 100-days-of-ml/
 │
 ├── 📊 eda/
-│   ├── EDA_housing_data.ipynb          # Full EDA on California Housing dataset
-│   ├── univariate_analysis.ipynb       # Distributions, histograms, box plots
-│   ├── bivariate_analysis.ipynb        # Correlation, scatter plots, heatmaps
-│   └── pandas_profiling.ipynb          # Automated EDA reports
+│   ├── EDA.ipynb                              # Full EDA on Housing dataset
+│   ├── univariant_analysis_EDA.ipynb          # Distributions, histograms, box plots
+│   └── Bivarient_analysis.ipynb               # Correlation, scatter plots, heatmaps
 │
 ├── ⚙️ preprocessing/
-│   ├── feature_scaling_standardization.ipynb   # StandardScaler on Social Network Ads
-│   ├── normalization_wine_data.ipynb            # MinMaxScaler on Wine dataset
-│   └── feature_engineering.ipynb               # Creating & transforming features
+│   ├── Feature_scaling_standardization .ipynb # StandardScaler on Social Network Ads
+│   └── Normalization_engineering.ipynb        # MinMaxScaler on Wine dataset
 │
 ├── 🌐 data-collection/
-│   ├── API_movies_data.ipynb           # Fetching & parsing movie data from API
-│   ├── working_with_API.ipynb          # REST API fundamentals with Python
-│   └── web_scraping.ipynb              # BeautifulSoup scraping pipeline
+│   └── (coming soon)
 │
 ├── 🗄️ data-handling/
-│   ├── working_with_csv.ipynb          # CSV read/write/manipulation tricks
-│   ├── working_JSON_SQL.ipynb          # JSON parsing + SQL queries in Python
-│   └── csv_files_working.ipynb         # Advanced CSV operations
+│   └── (coming soon)
 │
 └── 📋 README.md
 ```
@@ -57,16 +51,11 @@ Every notebook here represents a real session where I picked a concept, got my h
 
 | # | Notebook | Concept | Dataset | Key Skills |
 |---|----------|---------|---------|------------|
-| 01 | `univariate_analysis.ipynb` | Statistical analysis of single variables | Various | Histograms, KDE, Box plots |
-| 02 | `bivariate_analysis.ipynb` | Relationships between two variables | Various | Correlation, Scatter plots |
-| 03 | `EDA_housing_data.ipynb` | Full exploratory data analysis | California Housing | Pandas, Seaborn, Matplotlib |
-| 04 | `pandas_profiling.ipynb` | Automated EDA reports | Various | ydata-profiling |
-| 05 | `feature_scaling_standardization.ipynb` | Standardization | Social Network Ads | StandardScaler, Sklearn |
-| 06 | `normalization_wine_data.ipynb` | Normalization | Wine Dataset | MinMaxScaler |
-| 07 | `feature_engineering.ipynb` | Creating new features | Various | Pandas transformations |
-| 08 | `API_movies_data.ipynb` | Fetching data from REST APIs | Movies API | Requests, JSON |
-| 09 | `web_scraping.ipynb` | Web scraping pipeline | Live web data | BeautifulSoup |
-| 10 | `working_JSON_SQL.ipynb` | Working with JSON & SQL | Various | sqlite3, json module |
+| 01 | `EDA.ipynb` | Full exploratory data analysis | Housing | Pandas, Seaborn, Matplotlib |
+| 02 | `univariant_analysis_EDA.ipynb` | Statistical analysis of single variables | Train | Histograms, KDE, Box plots |
+| 03 | `Bivarient_analysis.ipynb` | Relationships between two variables | Tips | Correlation, Scatter plots |
+| 04 | `Feature_scaling_standardization .ipynb` | Standardization | Social Network Ads | StandardScaler, Sklearn |
+| 05 | `Normalization_engineering.ipynb` | Normalization | Wine Dataset | MinMaxScaler |
 
 ---
 
@@ -87,9 +76,6 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler
 # Data Collection
 import requests
 from bs4 import BeautifulSoup
-
-# Profiling
-from ydata_profiling import ProfileReport
 ```
 
 ---
@@ -104,7 +90,7 @@ cd 100-days-of-ml
 
 ### 2. Install dependencies
 ```bash
-pip install pandas numpy matplotlib seaborn scikit-learn requests beautifulsoup4 ydata-profiling
+pip install pandas numpy matplotlib seaborn scikit-learn requests beautifulsoup4
 ```
 
 ### 3. Launch Jupyter
@@ -115,7 +101,6 @@ jupyter notebook
 ### 4. Navigate to any folder and open a notebook ✅
 
 ---
-
 
 ## 🔗 Connect With Me
 
