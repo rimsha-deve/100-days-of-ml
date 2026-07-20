@@ -2,11 +2,11 @@
 
 > *"The best way to learn data science is to do data science — every single day."*
 
-[![Days Completed](https://img.shields.io/badge/Days%20Completed-20%2B-blueviolet?style=for-the-badge)](.)
+[![Days Completed](https://img.shields.io/badge/Days%20Completed-34%2B-blueviolet?style=for-the-badge)](.)
 [![Language](https://img.shields.io/badge/Language-Python-yellow?style=for-the-badge&logo=python)](.)
 [![Tools](https://img.shields.io/badge/Tools-Pandas%20%7C%20NumPy%20%7C%20Seaborn%20%7C%20Sklearn-blue?style=for-the-badge)](.)
 [![Status](https://img.shields.io/badge/Status-Active%20%F0%9F%94%A5-brightgreen?style=for-the-badge)](.)
-[![Notebooks](https://img.shields.io/badge/Notebooks-18%2B-orange?style=for-the-badge)](.)
+[![Notebooks](https://img.shields.io/badge/Notebooks-34%2B-orange?style=for-the-badge)](.)
 
 ---
 
